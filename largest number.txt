@@ -1,0 +1,10 @@
+n1=int(input("Enter your 1st number:"))
+n2=int(input("Enter your 2st number:"))
+n3=int(input("Enter your 3st number:"))
+if (n1>n2) and (n1>n3):
+    
+    print ("This is your largest number:",n1)
+elif (n2>n3) and (n2>1):
+    print ("This is your largest number:",n2)
+else:
+    print ("This is your largest number:",n3)
