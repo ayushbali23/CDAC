@@ -1,0 +1,8 @@
+import math
+n=int(input("Enter the x-coordinate of A: "))
+n2=int(input("Enter the y-coordinate of A: "))
+n3=int(input("Enter the x-coordinate of B: "))
+n4=int(input("Enter the y-coordinate of B: "))
+distance=math.sqrt( ((n3-n)**2) + ((n4-n2)**2) )
+
+print("The distance between the Point A to B is:",distance)

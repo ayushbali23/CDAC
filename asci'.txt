@@ -1,0 +1,4 @@
+str=input("hello number:")
+for c in str:
+    print(c,end="=")
+    print(ord(c), end=" ")

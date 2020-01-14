@@ -1,0 +1,6 @@
+#import math
+n=int(input("Enter your radius of circle:"))
+#a=int(math.pi*n*n)
+a=math.pi*n*n
+
+print(a)
